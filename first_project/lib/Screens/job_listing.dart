@@ -1,7 +1,6 @@
 import 'package:first_project/Screens/add_newJob.dart';
 import 'package:first_project/Screens/signin.dart';
 import 'package:first_project/container_jobList.dart';
-import 'package:first_project/text_field.dart';
 import 'package:flutter/material.dart';
 
 class JobListing extends StatelessWidget {

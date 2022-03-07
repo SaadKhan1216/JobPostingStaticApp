@@ -1,3 +1,4 @@
+import 'package:first_project/Screens/job_listing.dart';
 import 'package:first_project/Screens/signin.dart';
 import 'package:first_project/app_button.dart';
 import 'package:first_project/text_field.dart';
@@ -50,7 +51,7 @@ class SignUp extends StatelessWidget {
             GestureDetector(
                 onTap: () {
                   Navigator.of(context)
-                      .push(MaterialPageRoute(builder: (_) => SignIn()));
+                      .push(MaterialPageRoute(builder: (_) => JobListing()));
                 },
                 child: const AppButton(label: 'Sign Up'))
           ]),
